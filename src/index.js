@@ -7,6 +7,8 @@ import { Api } from "./Api";
 import Navegacion from "./Navegacion";
 // import { App } from './App';
 import reportWebVitals from './reportWebVitals';
+import { ComponentState } from './componentState';
+import { Example2 } from './useEfect';
 // import { Api } from './Api';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +22,8 @@ root.render(
         <Routes>
           <Route path="/app" element={<App />} />
           <Route path="/api" element={<Api />} />
+          <Route path="/componentState" element={<ComponentState />} />
+          <Route path="/useEffect" element={<Example2 />} />
         </Routes>
       </div>
     </Router>

@@ -31,6 +31,14 @@ const Navegacion = () => {
                 POST
               </Link>
             </li>
+            <li>
+              <Link className="nav-link" to="/componentState">
+                USE-STATE
+              </Link>
+            </li>
+            <li><Link className="nav-link" to="/useEffect">
+              USE-EFFECT
+            </Link></li>
           </ul>
         </div>
       </div>
